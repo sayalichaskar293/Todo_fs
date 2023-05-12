@@ -1,24 +1,35 @@
-About 
-This is a simple todo list
 
-Built With
-Frontend = React 
-Backend =Node.js+ Express.js+MongoDB
 
-Installation
+# Todo List
 
-Clone the repo
-git clone https://github.com/your_username_/Todo_fs.git
+This is a simple to do list made using Reactjs for the frontend, ExpressJS for the backend and MongoDB as database.
 
-Load the .env file into the server/client with referring to .env.example
+## Installation
 
-Go to the server and client packages in different terminals
+1. Clone the repo
 
+```bash
+https://github.com/sayalichaskar293/Todo_fs.git
+```
+2. Go to the server and client packages in different terminals
+
+```bash
 cd server/
 cd client/
-Install NPM packages
+```
+
+3. Install NPM packages
+```bash
 npm install
-Run the Client with
+```
+
+4. Run the Client with
+```bash
 npm start
-Run the Server with
+```
+5. Run the Server with
+```bash
 npm start
+```
+
+
