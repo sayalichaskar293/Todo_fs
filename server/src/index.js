@@ -7,9 +7,8 @@ const dotenv = require("dotenv")
 
 dotenv.config()
 
-mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@todo.5fygloc.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true })
-  // .then(() => console.log('MongoDB connected'))
-  // .catch(err => console.log('Error connecting to MongoDB:', err));
+mongoose.connect(`mongodb+srv://sayalisc2021:sayali1234@todo.5fygloc.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true })
+ 
 
 const todoCardSchema = new mongoose.Schema({
     id: String,
