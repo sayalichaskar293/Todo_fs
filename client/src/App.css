@@ -1,0 +1,50 @@
+.add-button{
+    background-image: linear-gradient( #b4d282, #5a6e37);
+    color: white;
+    padding: 0.5rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+html{
+    background-color: #101420;
+    color: white;
+}
+
+.card-added{
+    margin: 2rem;
+   
+    
+}
+
+.new-card{
+    margin: 2rem;
+    background-color: rgba(81, 66, 117, 0.3);
+    padding: 0.2rem;
+}
+
+.task{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comment{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.date{
+    font-family:  'Courier New', Courier, monospace;
+     font-size: smaller;
+     font-weight: 100;
+}
+
+.modal-open{
+    background-color: black;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
